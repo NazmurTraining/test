@@ -1,0 +1,71 @@
+pipeline {
+
+    agent any
+
+    stages {
+
+        stage('SCM') {
+
+            steps {
+
+                 git                              
+
+                                                  echo "this is step 2
+
+                //
+
+            }
+
+        }
+
+        stage('Test') {
+
+            steps {
+
+                                                   echo "this is step1"
+
+                //
+
+            }
+
+        }
+
+        stage('Deploy') {
+
+            steps {
+
+                                                echo "this is step1"
+
+                //
+
+            }
+
+        }
+
+                                stage('Deploy') {
+
+            steps {
+
+                                                echo "this is step1"
+
+                //
+
+            }
+
+        }
+
+                                stage('Deploy') {
+
+            steps {
+
+                                                echo "this is step1"
+
+                //
+
+            }
+
+        }
+
+    }
+
+}
